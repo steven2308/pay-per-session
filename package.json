@@ -1,0 +1,32 @@
+{
+  "name": "captcha",
+  "version": "0.1.0",
+  "description": "Pay per session contracts",
+  "scripts": {
+    "test": "npx hardhat test",
+    "typechain": "hardhat typechain",
+    "prettier": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "@stoicdev0",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.12.2",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.20",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.8.2",
+    "typescript": "^4.8.3"
+  }
+}
